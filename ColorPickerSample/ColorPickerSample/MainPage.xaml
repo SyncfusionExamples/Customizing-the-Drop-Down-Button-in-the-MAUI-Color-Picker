@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:inputs="clr-namespace:Syncfusion.Maui.Inputs;assembly=Syncfusion.Maui.Inputs"
+             x:Class="ColorPickerSample.MainPage">
+
+    <inputs:SfColorPicker x:Name="colorPicker">
+        <inputs:SfColorPicker.DropDownButtonTemplate>
+            <DataTemplate>
+                <Label Text="&#xe705;" FontFamily="MauiMaterialAssets" FontSize="14" 
+                       TextColor="Black" VerticalTextAlignment="Center" 
+                       HorizontalTextAlignment="Center" />
+            </DataTemplate>
+        </inputs:SfColorPicker.DropDownButtonTemplate>
+    </inputs:SfColorPicker>
+
+</ContentPage>
