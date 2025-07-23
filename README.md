@@ -8,9 +8,11 @@ This article shows how to customize the drop-down button in the MAUI Color Picke
     <inputs:SfColorPicker x:Name="colorPicker">
         <inputs:SfColorPicker.DropDownButtonTemplate>
             <DataTemplate>
-                <Label Text="&#xe705;" FontFamily="MauiMaterialAssets" FontSize="14" 
-                    TextColor="Black" VerticalTextAlignment="Center" 
-                    HorizontalTextAlignment="Center" />
+                <Grid Background="PaleTurquoise">
+                    <Label Text="&#xe705;" FontFamily="MauiMaterialAssets" FontSize="14" 
+                        TextColor="Black" VerticalTextAlignment="Center" 
+                        HorizontalTextAlignment="Center" />
+                </Grid>
             </DataTemplate>
         </inputs:SfColorPicker.DropDownButtonTemplate>
     </inputs:SfColorPicker>
