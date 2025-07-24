@@ -7,9 +7,11 @@
     <inputs:SfColorPicker x:Name="colorPicker">
         <inputs:SfColorPicker.DropDownButtonTemplate>
             <DataTemplate>
-                <Label Text="&#xe705;" FontFamily="MauiMaterialAssets" FontSize="14" 
-                       TextColor="Black" VerticalTextAlignment="Center" 
-                       HorizontalTextAlignment="Center" />
+                <Grid Background="PaleTurquoise">
+                    <Label Text="&#xe705;" FontFamily="MauiMaterialAssets" FontSize="14" 
+                   TextColor="Black" VerticalTextAlignment="Center" 
+                   HorizontalTextAlignment="Center" />
+                </Grid>
             </DataTemplate>
         </inputs:SfColorPicker.DropDownButtonTemplate>
     </inputs:SfColorPicker>
